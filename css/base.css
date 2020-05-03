@@ -27,6 +27,10 @@ body {
     margin-bottom: 0;
 }
 
+.paper-btn {
+    background-color: white;
+}
+
 .round-btn {
     border-radius:50px;
 }
