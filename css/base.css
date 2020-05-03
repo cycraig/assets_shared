@@ -91,7 +91,7 @@ a:focus {
   box-shadow: none;
 }
 
-.card-github-icon {
+.card-github-icon, .header-github-icon {
   margin-right: 0.25em;
 }
 
