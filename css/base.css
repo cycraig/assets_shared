@@ -8,6 +8,12 @@ body {
     --min-content-width: 360px;
 }
 
+@media only screen and (max-width: 480px) {
+  .col {
+    padding: 0;
+  }
+}
+
 #content {
     max-width: var(--max-content-width);
     min-width: var(--min-content-width);
