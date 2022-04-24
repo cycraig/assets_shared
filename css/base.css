@@ -1,11 +1,12 @@
 body {
-    background-image: url("../img/geometry.png")
+  background-image: url("../img/geometry.png")
 }
 
 :root {
-    /* variable so subsites can override styles easily */
-    --max-content-width: 1264px;
-    --min-content-width: 360px;
+  /* variable so subsites can override styles easily */
+  --max-content-width: 1264px;
+  --min-content-width: 360px;
+  /* color: white; */
 }
 
 @media only screen and (max-width: 480px) {
@@ -15,37 +16,36 @@ body {
 }
 
 #content {
-    max-width: var(--max-content-width);
-    min-width: var(--min-content-width);
+  max-width: var(--max-content-width);
+  min-width: var(--min-content-width);
 }
 
 .section {
-    margin: 5em auto 2em auto;
-    padding: 0 1.5em;
-    max-width: 800px;
-    margin-bottom: 50px;
-    line-height: 1.6em;
+  margin: 2em auto 2em auto;
+  padding: 0 1.5em;
+  line-height: 1.6em;
 }
 
 #inner {
-    border-radius: 10px;
-    background-color: rgba(255, 255,255,0.4);
-    margin-bottom: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  padding-bottom: 0;
 }
 
 .paper-btn {
-    background-color: white;
+  background-color: white;
 }
 
 .round-btn {
-    border-radius:50px;
+  border-radius: 50px;
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
   -webkit-text-decoration-skip: none;
   background-image: none;
-  outline : none;
+  outline: none;
   color: black;
 }
 
@@ -54,37 +54,38 @@ a:hover {
 }
 
 a:focus {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .card {
-    align-self: flex-start; /* prevent expanding to fill the flexbox row */
-    width: 17rem;
-    background-color: #fff;
+  /* prevent expanding to fill the flexbox row */
+  align-self: flex-start;
+  width: 17rem;
+  background-color: #fff;
 }
 
-.card > * {
-    text-decoration-color: white;
-    text-decoration: none;
+.card>* {
+  text-decoration-color: white;
+  text-decoration: none;
 }
 
 .card-link {
-    padding: 1px;
-    text-decoration: none;
-    border-bottom-left-radius: 15px 255px;
-    border-bottom-right-radius: 225px 15px;
-    border-top-left-radius: 255px 15px;
-    border-top-right-radius: 15px 225px;
+  padding: 1px;
+  text-decoration: none;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
 }
 
 .card-link:focus {
-  
+
   padding: 0;
   text-decoration: none;
 }
 
 .card .card-footer {
-    padding: 0;
+  padding: 0;
 }
 
 .card-footer-btn {
@@ -97,7 +98,8 @@ a:focus {
   box-shadow: none;
 }
 
-.card-github-icon, .header-github-icon {
+.card-github-icon,
+.header-github-icon {
   margin-right: 0.25em;
 }
 
@@ -106,7 +108,8 @@ a:focus {
   background: none;
 }
 
-.footer, .footer a {
-    color: lightgray;
-    margin-bottom: 0;
+.footer,
+.footer a {
+  color: lightgray;
+  margin-bottom: 0;
 }
